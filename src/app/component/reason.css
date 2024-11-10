@@ -1,0 +1,112 @@
+/* Reason.css */
+
+.reason-section {
+    background-color: #cad2c5;
+    color: #0f4c5c;
+    padding: 96px 0;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  @media (min-width: 768px) {
+    .content-wrapper {
+      flex-direction: row;
+    }
+  }
+  
+  .info-section {
+    flex: 1;
+    padding-right: 16px;
+  }
+  
+  .info-item {
+    position: relative;
+    padding-bottom: 48px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .vertical-line {
+    position: absolute;
+    left: 16px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #0f4c5c;
+  }
+  
+  .icon-wrapper {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    background-color: #0f4c5c;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #cad2c5;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .text-content {
+    padding-left: 32px;
+  }
+  
+  .info-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .info-description {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .image-section {
+    flex: 1.5;
+    margin-top: 32px;
+  }
+  
+  @media (min-width: 768px) {
+    .image-section {
+      margin-top: 0;
+    }
+  }
+  
+  .image-wrapper {
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(0.95);
+    transition: transform 1s ease-in-out;
+  }
+  
+  .image-wrapper:hover {
+    transform: scale(1);
+  }
+  
+  .display-image {
+    width: 90%;
+    height: auto;
+    max-height: 600px;
+    object-fit: cover;
+    transition: transform 1s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .display-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  }
+  

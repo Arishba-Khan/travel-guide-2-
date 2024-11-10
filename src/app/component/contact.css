@@ -1,0 +1,82 @@
+/* Contact.css */
+
+#contact {
+  background-color: #cad2c5;
+  color: #0f4c5c;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.container {
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.title-font {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: #0f4c5c;
+}
+
+.leading-relaxed {
+  line-height: 1.6;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.input-field, .textarea-field {
+  width: 100%;
+  background-color: rgba(240, 240, 240, 0.5);
+  border-radius: 0.25rem;
+  border: 1px solid #d1d5db;
+  outline: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.input-field:focus, .textarea-field:focus {
+  background-color: white;
+  border-color: #5c6bc0;
+  box-shadow: 0 0 5px rgba(92, 107, 192, 0.5);
+}
+
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f4c5c;
+  color: white;
+  font-size: 0.9rem;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0d3e4c;
+}

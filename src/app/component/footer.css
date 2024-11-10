@@ -1,0 +1,33 @@
+/* Footer.css */
+
+.footer {
+    background-color: #0f4c5c;
+    color: #cad2c5;
+    padding: 16px 0;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-text {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-text {
+    font-size: 0.875rem;
+    text-align: center;
+    color: #cad2c5;
+  }
+  
+  .footer-text .font-bold {
+    font-weight: bold;
+  }
+  

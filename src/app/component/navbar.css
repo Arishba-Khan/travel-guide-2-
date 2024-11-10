@@ -1,0 +1,59 @@
+/* Navbar.css */
+
+.navbar {
+  background-color: #cad2c5; /* Light greenish background */
+  color: #0f4c5c; /* Dark green color for text */
+  padding: 8px 0;
+  position: sticky;
+  top: 0;
+  z-index: 50; /* Ensures the navbar stays on top of other content */
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0f4c5c; /* Set logo color to match nav links */
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.logo-text {
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin-left: 4px;
+  color: inherit; /* Inherit the color from the parent .logo */
+}
+
+@media (min-width: 768px) {
+  .logo {
+    margin-bottom: 0;
+  }
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-link {
+  font-size: 1rem;
+  color: #0f4c5c; /* Color of the nav links */
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #081c15; /* Darker green for hover effect */
+}
